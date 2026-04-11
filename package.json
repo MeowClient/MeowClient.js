@@ -1,9 +1,9 @@
 {
 	"name": "kxsclient",
-	"version": "2.10.3",
+	"version": "3.0.0-final-offline-before-archive",
 	"main": "index.js",
 	"namespace": "https://github.com/Kisakay/KxsClient",
-	"icon": "https://kxs.rip/assets/KysClientLogo.png",
+	"icon": "https://kxsclient.kisakay.com/assets/KysClientLogo.png",
 	"placeholder": "Kxs Client - Survev.io Client",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",

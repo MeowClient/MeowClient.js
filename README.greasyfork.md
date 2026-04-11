@@ -1,13 +1,13 @@
 # 🎮 KxsClient
 
 <center>
-<img src="https://kxs.rip/assets/KysClient.gif" width="400" alt="KxsClient Logo">
+<img src="https://kxsclient.kisakay.com/assets/KysClient.gif" width="400" alt="KxsClient Logo">
 </center>
 
 ### Rediscover Surviv.io with the Ultimate Enhancement Client
 
-<a href="https://kxs.rip"><img src="https://img.shields.io/badge/Version-v2.2.11-blue?style=for-the-badge" alt="Version"></a>
-<a href="https://kxs.rip"><img src="https://img.shields.io/badge/Website-kxs.rip-3B82F6?style=for-the-badge" alt="Website"></a>
+<a href="https://kxsclient.kisakay.com"><img src="https://img.shields.io/badge/Version-v2.2.11-blue?style=for-the-badge" alt="Version"></a>
+<a href="https://kxsclient.kisakay.com"><img src="https://img.shields.io/badge/Website-kxsclient.kisakay.com-3B82F6?style=for-the-badge" alt="Website"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
 <a href="https://discord.com"><img src="https://img.shields.io/badge/Discord-kisakay-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 
@@ -75,7 +75,7 @@ Connect with other KxsClient users in the game with our exclusive networking fea
 ## 🚀 Getting Started
 
 1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net/)
-2. Visit [kxs.rip](https://kxs.rip) and click "Install"
+2. Visit [kxsclient.kisakay.com](https://kxsclient.kisakay.com) and click "Install"
 3. Open Surviv.io and enjoy your enhanced gaming experience!
 
 ## 🔧 Client Configuration

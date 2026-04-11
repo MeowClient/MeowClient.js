@@ -1,6 +1,5 @@
 {
-	"base_url": "https://kxs.rip",
-	"api_url": "https://network.kxs.rip",
+	"base_url": "https://kxsclient.kisakay.com",
 	"fileName": "KxsClient.user.js",
 	"match": [
 		"survev.io",
@@ -10,7 +9,7 @@
 		"leia-uwu.github.io/survev",
 		"survev.leia-is.gay",
 		"survivx.org",
-		"kxs.rip",
+		"kxsclient.kisakay.com",
 		"localhost:3000",
 		"veldreth.com",
 		"eu-comp.net",

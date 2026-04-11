@@ -41,15 +41,15 @@ export class EasterEgg {
 		this.originalPageTitle = document.title;
 
 		// Check if we're on the target website
-		if (window.location.hostname === 'kxs.rip' || window.location.hostname === 'www.kxs.rip') {
+		if (window.location.hostname === 'kxsclient.kisakay.com' || window.location.hostname === 'www.kxsclient.kisakay.com') {
 			// Initialize sounds
-			this.zelda3Sound = new Audio('https://kxs.rip/assets/message.mp3'); // Replace with actual Zelda sound
-			this.periodSound = new Audio('https://kxs.rip/assets/message-finish.mp3'); // Sound for the final period
-			this.ambientSound = new Audio('https://kxs.rip/assets/hell_ambiance.m4a'); // Replace with actual ambient URL
-			this.buttonClickSound = new Audio('https://kxs.rip/assets/enter.mp3'); // Button click sound
-			this.arrowKeySound = new Audio('https://kxs.rip/assets/arrow.mp3'); // Arrow key sound
-			this.enterKeySound = new Audio('https://kxs.rip/assets/enter.mp3'); // Enter key sound
-			this.closeMenuSound = new Audio('https://kxs.rip/assets/close.mp3'); // Close menu sound
+			this.zelda3Sound = new Audio('https://kxsclient.kisakay.com/assets/message.mp3'); // Replace with actual Zelda sound
+			this.periodSound = new Audio('https://kxsclient.kisakay.com/assets/message-finish.mp3'); // Sound for the final period
+			this.ambientSound = new Audio('https://kxsclient.kisakay.com/assets/hell_ambiance.m4a'); // Replace with actual ambient URL
+			this.buttonClickSound = new Audio('https://kxsclient.kisakay.com/assets/enter.mp3'); // Button click sound
+			this.arrowKeySound = new Audio('https://kxsclient.kisakay.com/assets/arrow.mp3'); // Arrow key sound
+			this.enterKeySound = new Audio('https://kxsclient.kisakay.com/assets/enter.mp3'); // Enter key sound
+			this.closeMenuSound = new Audio('https://kxsclient.kisakay.com/assets/close.mp3'); // Close menu sound
 
 			if (this.ambientSound) {
 				this.ambientSound.loop = true;

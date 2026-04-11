@@ -12,24 +12,16 @@
 			: new OriginalWebSocket(url);
 		if (typeof url === "string" && url.includes("gameId=")) {
 			const gameId = url.split("gameId=")[1];
-			globalThis.kxsClient.kxsNetwork.actualGameId = gameId;
+			globalThis.kxsClient.actualGameId = gameId;
 
 			// do things
-			globalThis.kxsClient.kxsNetwork.sendGameInfoToWebSocket(gameId);
-			globalThis.kxsClient.exchangeManager.sendGameInfo(gameId);
 			global.kxsClient.pingManager.setServerFromWebsocketHooking(new URL(url));
-
-			globalThis.kxsClient.aliveplayer.startObserving((newValue: string | null) => {
-				globalThis.kxsClient.kxsNetwork.PlayerAlive_ExchangeKey(newValue ?? "");
-			});
 
 			const originalClose = ws.close.bind(ws);
 			ws.close = function (code?: number, reason?: string) {
-				global.kxsClient.kxsNetwork.gameEnded()
-				global.kxsClient.kxsNetwork.gameEnded_ExchangeKey(global.kxsClient.getFinalGameBody() || {});
 				globalThis.kxsClient.aliveplayer.stopObserving();
 				global.kxsClient.pingManager.stop();
-				globalThis.kxsClient.kxsNetwork.actualGameId = null;
+				globalThis.kxsClient.actualGameId = null;
 				return originalClose(code, reason);
 			};
 		}

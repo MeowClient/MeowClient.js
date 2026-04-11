@@ -21,7 +21,7 @@ const CLIENT_REGISTRY: Record<string, ClientConfig> = {
 		domains: ["zurviv.io", "eu-comp.zurviv.io"],
 		full_logo: config.base_url + "/assets/KxzLogoFull.png",
 		icon_logo: config.base_url + "/assets/KxzClientLogo.png",
-		welcome_sound: "https://kxs.rip/assets/o_z_sound.mp3",
+		welcome_sound: "https://kxsclient.kisakay.com/assets/o_z_sound.mp3",
 		options: {
 			is_custom_background_enabled: false,
 			is_dollar_sub_category_enable: false,
@@ -52,7 +52,7 @@ const CLIENT_REGISTRY: Record<string, ClientConfig> = {
 		domains: ["cursev.io"],
 		full_logo: config.base_url + "/assets/KxcLogoFull.png",
 		icon_logo: config.base_url + "/assets/KxcClientLogo.png",
-		welcome_sound: "https://kxs.rip/assets/o_c_sound.mp3",
+		welcome_sound: "https://kxsclient.kisakay.com/assets/o_c_sound.mp3",
 		options: {
 			is_custom_background_enabled: false,
 			is_dollar_sub_category_enable: true,
@@ -83,7 +83,7 @@ const CLIENT_REGISTRY: Record<string, ClientConfig> = {
 		domains: true,
 		full_logo: config.base_url + "/assets/KysClient.gif",
 		icon_logo: config.base_url + "/assets/KysClientLogo.png",
-		welcome_sound: "https://kxs.rip/assets/o_sound.mp3",
+		welcome_sound: "https://kxsclient.kisakay.com/assets/o_sound.mp3",
 		options: {
 			is_custom_background_enabled: true,
 			is_dollar_sub_category_enable: true,
@@ -114,7 +114,7 @@ const CLIENT_REGISTRY: Record<string, ClientConfig> = {
 		domains: ["resurviv.biz", "uno.cheap"],
 		full_logo: config.base_url + "/assets/KxrLogoFull.png",
 		icon_logo: config.base_url + "/assets/KxrClientLogo.png",
-		welcome_sound: "https://kxs.rip/assets/o_r_sound.mp3",
+		welcome_sound: "https://kxsclient.kisakay.com/assets/o_r_sound.mp3",
 		options: {
 			is_custom_background_enabled: true,
 			is_dollar_sub_category_enable: true,

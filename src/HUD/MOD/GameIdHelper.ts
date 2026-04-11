@@ -82,7 +82,7 @@ class GameIdHelper {
         `;
 
 		const text = document.createElement("span");
-		text.textContent = this.kxsClient.kxsNetwork.actualGameId || "";
+		text.textContent = this.kxsClient.actualGameId || "";
 
 		if (uiTopLeft) {
 			content.appendChild(icon);
@@ -147,7 +147,7 @@ class GameIdHelper {
 			return;
 		}
 
-		const gameId = this.kxsClient.kxsNetwork.actualGameId;
+		const gameId = this.kxsClient.actualGameId;
 		if (!gameId || gameId === "") {
 			this.hide();
 			return;
@@ -179,7 +179,7 @@ class GameIdHelper {
 		// L'affichage est géré par setupRShiftListener selon l'état du menu
 		// On met juste à jour le contenu si l'élément est visible
 		if (this.warningElement && this.warningElement.style.display === "block") {
-			const gameId = this.kxsClient.kxsNetwork.actualGameId;
+			const gameId = this.kxsClient.actualGameId;
 			const span = this.warningElement.querySelector("span");
 			if (span && gameId && gameId !== "") {
 				span.textContent = `Game ID: ${gameId}`;
@@ -195,7 +195,7 @@ class GameIdHelper {
 	}
 
 	private async copyGameIdToClipboard() {
-		const gameId = this.kxsClient.kxsNetwork.actualGameId;
+		const gameId = this.kxsClient.actualGameId;
 		if (!gameId || gameId === "") {
 			return;
 		}
@@ -213,7 +213,7 @@ class GameIdHelper {
 				// Restaurer le texte original après 1.5 secondes
 				setTimeout(() => {
 					if (span && this.warningElement) {
-						const currentGameId = this.kxsClient.kxsNetwork.actualGameId;
+						const currentGameId = this.kxsClient.actualGameId;
 						if (currentGameId && currentGameId !== "") {
 							span.textContent = `Game ID: ${currentGameId}`;
 						} else {
@@ -241,7 +241,7 @@ class GameIdHelper {
 					span.textContent = "✓ Copied!";
 					setTimeout(() => {
 						if (span && this.warningElement) {
-							const currentGameId = this.kxsClient.kxsNetwork.actualGameId;
+							const currentGameId = this.kxsClient.actualGameId;
 							if (currentGameId && currentGameId !== "") {
 								span.textContent = `Game ID: ${currentGameId}`;
 							} else {
@@ -294,7 +294,7 @@ class GameIdHelper {
 		if (!this.warningElement) return;
 		const span = this.warningElement.querySelector("span");
 		if (span) {
-			const gameId = this.kxsClient.kxsNetwork.actualGameId;
+			const gameId = this.kxsClient.actualGameId;
 			// Ne pas mettre à jour si le texte est "✓ Copied!" (feedback de copie)
 			if (span.textContent !== "✓ Copied!") {
 				span.textContent = gameId && gameId !== "" ? `Game ID: ${gameId}` : 'Game ID: Placement Mode';
@@ -465,7 +465,7 @@ class GameIdHelper {
 			}
 
 			const isMenuOpen = this.kxsClient.secondaryMenu?.isOpen || false;
-			const gameId = this.kxsClient.kxsNetwork.actualGameId;
+			const gameId = this.kxsClient.actualGameId;
 
 			// Afficher uniquement si le module est activé, le menu est ouvert ET qu'un gameId existe
 			if (isMenuOpen && gameId && gameId !== "") {

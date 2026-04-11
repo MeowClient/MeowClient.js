@@ -19,7 +19,7 @@ import { client } from "./UTILS/vars";
 function loadKxs() {
 	if (client.name == "KxzClient") localStorage.setItem("popupHidden", String(true));
 
-	if (href === "https://kxs.rip/") {
+	if (href === "https://kxsclient.kisakay.com/") {
 		/*
 			- Injecting Easter Egg
 		*/

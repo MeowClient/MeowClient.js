@@ -6,24 +6,43 @@
 
 ### **Rediscover Surviv.io with the Ultimate Enhancement Client**
 
-[![Version](https://img.shields.io/badge/Version-v2.10.2-blue?style=for-the-badge)](https://kxsclient.kisakay.com)
+[![Version](https://img.shields.io/badge/Version-v3.0.0-blue?style=for-the-badge)](https://kxsclient.kisakay.com)
 [![Website](https://img.shields.io/badge/Website-kxsclient.kisakay.com-3B82F6?style=for-the-badge)](https://kxsclient.kisakay.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Discord](https://img.shields.io/badge/Discord-kisakay-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
+[![Discord](https://img.shields.io/badge/Discord-kisakay-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://discord.com)
 
 </div>
+
+---
+
+# ⚠️ Project Discontinued & Archived
+
+KxsClient is **no longer in active development**. The repository has been **archived**, and no further updates, fixes, or features will be added.
+
+I stopped playing Surviv.io back in January, and the last update to KxsClient was in December 2025. Since then, my motivation to continue maintaining or expanding the project gradually faded. The original goal of KxsClient was to realize a childhood dream — building my own working client. That goal has been achieved, and I’m proud of what was created.
+
+Over time, the perception around the project became increasingly negative. Many people who heard about KxsClient considered it low-quality or labeled it as a cheat. False information also spread within parts of the community, and unfortunately this was not always addressed. Seeing this kind of reception toward something I invested a lot of time and passion into was discouraging.
+
+Because of this, and because my personal interest in the project has decreased, I decided to stop development and leave KxsClient in its current working state rather than forcing updates without real motivation.
+
+Thank you to everyone who supported the project, used it, or provided constructive feedback. Creating KxsClient was a meaningful experience.
+
+— Kisakay
+
+---
 
 ## 📋 Overview
 
 KxsClient (Kisakay x Surviv) is a premium-quality, free and open-source enhancement client for Surviv.io, written in TypeScript. It delivers over 30 fully configurable mods with a modern, user-friendly interface that enhances your gameplay experience without breaking the game's rules.
 
 **Key Highlights:**
-- 🎨 Modern and intuitive UI with minimalist design
-- ⚙️ 30+ performance-enhancing features
-- 🔊 Integrated voice chat for real-time communication
-- 🌐 Multiplayer network integration
-- 🔧 100% customizable HUD elements
-- ✅ Completely legitimate with no unfair advantages
+
+* 🎨 Modern and intuitive UI with minimalist design
+* ⚙️ 30+ performance-enhancing features
+* 🔊 Integrated voice chat for real-time communication
+* 🌐 Multiplayer network integration
+* 🔧 100% customizable HUD elements
+* ✅ Completely legitimate with no unfair advantages
 
 ## 🌟 Feature Showcase
 
@@ -31,10 +50,10 @@ KxsClient (Kisakay x Surviv) is a premium-quality, free and open-source enhancem
 
 Connect with other KxsClient users in the game with our exclusive networking features:
 
-- **Real-time Player Detection** - See when other KxsClient users join your game
-- **In-game Chat System** - Communicate with other players without leaving the game
-- **Voice Chat** - Talk with teammates in real-time with personal mute controls
-- **Username Synchronization** - Automatic username updates across sessions
+* **Real-time Player Detection** - See when other KxsClient users join your game
+* **In-game Chat System** - Communicate with other players without leaving the game
+* **Voice Chat** - Talk with teammates in real-time with personal mute controls
+* **Username Synchronization** - Automatic username updates across sessions
 
 ### 🛠️ Customizable Interface
 
@@ -43,18 +62,18 @@ Connect with other KxsClient users in the game with our exclusive networking fea
   <p><i>The elegant RSHIFT menu with all customization options</i></p>
 </div>
 
-- **Draggable Elements** - Position HUD elements exactly where you want them
-- **Grid System** - Easily align elements with our intelligent grid system
-- **Customizable Colors** - Set your own colors for various interface elements
-- **Toggle Visibility** - Show or hide any UI element based on your preference
+* **Draggable Elements** - Position HUD elements exactly where you want them
+* **Grid System** - Easily align elements with our intelligent grid system
+* **Customizable Colors** - Set your own colors for various interface elements
+* **Toggle Visibility** - Show or hide any UI element based on your preference
 
 ### 🎯 Performance Enhancements
 
-- **Heal Bar Indicator** - Visual indication of healing progress
-- **Kill Feed Improvements** - Enhanced kill feed with additional information
-- **Performance Metrics** - Real-time FPS, ping, and other performance statistics
-- **Focus Mode** - Clean interface that removes distractions during intense gameplay
-- **Gun Overlay Customization** - Colored and chromatic border options
+* **Heal Bar Indicator** - Visual indication of healing progress
+* **Kill Feed Improvements** - Enhanced kill feed with additional information
+* **Performance Metrics** - Real-time FPS, ping, and other performance statistics
+* **Focus Mode** - Clean interface that removes distractions during intense gameplay
+* **Gun Overlay Customization** - Colored and chromatic border options
 
 ### 🌐 Discord Integration
 
@@ -63,16 +82,16 @@ Connect with other KxsClient users in the game with our exclusive networking fea
   <p><i>Rich presence integration with Discord</i></p>
 </div>
 
-- **Rich Presence** - Show your game status in Discord
-- **Game Logging** - Optional Discord webhook integration for tracking your gameplay statistics
-- **Automatic Notifications** - Get notified about important events through Discord
+* **Rich Presence** - Show your game status in Discord
+* **Game Logging** - Optional Discord webhook integration for tracking your gameplay statistics
+* **Automatic Notifications** - Get notified about important events through Discord
 
 ### 📊 Statistics & History
 
-- **Kill Leader Tracking** - See who's dominating the game
-- **Game History** - Review your past games and performance
-- **Performance Analytics** - Track your improvement over time
-- **Death Analysis** - Learn from your defeats to improve your gameplay
+* **Kill Leader Tracking** - See who's dominating the game
+* **Game History** - Review your past games and performance
+* **Performance Analytics** - Track your improvement over time
+* **Death Analysis** - Learn from your defeats to improve your gameplay
 
 ## 🚀 Getting Started
 
@@ -96,25 +115,25 @@ KxsClient focuses on enhancing the visual experience and adding useful features 
 
 ### How can I report issues or suggest features?
 
-Contact me on Discord (`kisakay`) or find me on the official Surviv.io Discord server. I'm always open to suggestions and feedback!
+Contact me on Discord (`kisakay`).
 
 ## 💖 Support the Project
 
 KxsClient is and will always be completely free to use. If you enjoy using it, consider:
 
-- ⭐ Starring this repository
-- 🔄 Sharing it with your friends
-- 🐛 Reporting bugs and issues
-- 💡 Suggesting new features
+* ⭐ Starring this repository
+* 🔄 Sharing it with your friends
+* 🐛 Reporting bugs and issues
+* 💡 Suggesting new features
 
 ## 📝 License
 
-KxsClient is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute it as you wish. Contributions are always welcome!
+KxsClient is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute it as you wish.
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by [Kisakay](https://github.com/Kisakay)**
+**Made with ❤️ by Kisakay**
 
 </div>

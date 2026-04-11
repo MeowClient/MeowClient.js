@@ -6,7 +6,7 @@
 
 ### Rediscover Surviv.io with the Ultimate Enhancement Client
 
-<a href="https://kxsclient.kisakay.com"><img src="https://img.shields.io/badge/Version-v2.2.11-blue?style=for-the-badge" alt="Version"></a>
+<a href="https://kxsclient.kisakay.com"><img src="https://img.shields.io/badge/Version-v3.0.0-final-offline-before-archive-blue?style=for-the-badge" alt="Version"></a>
 <a href="https://kxsclient.kisakay.com"><img src="https://img.shields.io/badge/Website-kxsclient.kisakay.com-3B82F6?style=for-the-badge" alt="Website"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
 <a href="https://discord.com"><img src="https://img.shields.io/badge/Discord-kisakay-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>

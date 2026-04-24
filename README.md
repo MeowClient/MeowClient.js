@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 KxsClient
+# 🐈 MeowClient.js
 
 <img src="https://kxsclient.kisakay.com/assets/KysClient.gif" width="400" alt="KxsClient Logo">
 
@@ -14,20 +14,7 @@
 </div>
 
 ---
-
-# ⚠️ Project Discontinued & Archived
-
-KxsClient is **no longer in active development**. The repository has been **archived**, and no further updates, fixes, or features will be added.
-
-I stopped playing Surviv.io back in January, and the last update to KxsClient was in December 2025. Since then, my motivation to continue maintaining or expanding the project gradually faded. The original goal of KxsClient was to realize a childhood dream — building my own working client. That goal has been achieved, and I’m proud of what was created.
-
-Over time, the perception around the project became increasingly negative. Many people who heard about KxsClient considered it low-quality or labeled it as a cheat. False information also spread within parts of the community, and unfortunately this was not always addressed. Seeing this kind of reception toward something I invested a lot of time and passion into was discouraging.
-
-Because of this, and because my personal interest in the project has decreased, I decided to stop development and leave KxsClient in its current working state rather than forcing updates without real motivation.
-
-Thank you to everyone who supported the project, used it, or provided constructive feedback. Creating KxsClient was a meaningful experience.
-
-— Kisakay
+A fork of github.com/Kisakay/KxsClient ( now archived ) for MeowClient ! 
 
 ---
 

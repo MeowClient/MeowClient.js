@@ -4,7 +4,7 @@
 
 <img src="https://kxsclient.kisakay.com/assets/KysClient.gif" width="400" alt="KxsClient Logo">
 
-### **Rediscover Surviv.io with the Ultimate Enhancement Client**
+### **A fork of github.com/Kisakay/KxsClient ( now archived ) for MeowClient**
 
 [![Version](https://img.shields.io/badge/Version-v3.0.0-blue?style=for-the-badge)](https://kxsclient.kisakay.com)
 [![Website](https://img.shields.io/badge/Website-kxsclient.kisakay.com-3B82F6?style=for-the-badge)](https://kxsclient.kisakay.com)
@@ -13,10 +13,6 @@
 
 </div>
 
----
-A fork of github.com/Kisakay/KxsClient ( now archived ) for MeowClient ! 
-
----
 
 ## 📋 Overview
 
